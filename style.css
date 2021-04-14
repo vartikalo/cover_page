@@ -1,0 +1,151 @@
+body
+{
+    font-family: 'Montserrat-normal';
+
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat',sans-serif;
+}
+h1
+{
+  font-size: 4rem;  line-height: 1.5;  margin-bottom: 5%; font-weight: bold;
+  color: white;
+}
+
+h2
+{
+    font-size: 3rem;  font-weight: bold;  line-height: 1.5;
+}
+
+
+h3{
+  font-size: 1.5rem; margin-bottom: 5%; line-height: 1.5;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p
+{
+    color: gray;
+}
+
+button:hover{
+  opacity: 50%;
+}
+
+.colored-section{
+
+color:#fff;
+
+}
+.row{
+
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.bg{
+background-image: url('network7.jpg') ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+}
+
+
+.big-heading{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 4rem;  line-height: 1.5;  margin-bottom: 5%; font-weight: bold;
+    color: white;
+}
+.section-heading{
+  font-size: 3rem; line-height: 1.5;
+}
+#title .container-fluid
+{
+padding: 1% 9%;
+padding-bottom: 5%;
+}
+
+@media (max-width:1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+}
+
+.divison2{
+
+  text-align: center;
+  margin-top: 10%;
+}
+.title-img
+{ position: absolute;  z-index: 0;  right: 30%;
+
+    width: 60%;  transform: rotate(25deg);
+}
+#features
+{ position: relative;
+
+    padding-left: 3% 10%;
+}
+.feature-box
+{ padding: 4.5%;
+
+    text-align: center;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+.icons
+{
+    padding: 5%;
+}
+
+.col-md-4
+{ padding: 5%;
+
+    text-align: center;
+}
+@media (max-width:1028px)
+{
+    .title-img
+    {
+        position: static;  transform: rotate(0);
+    }
+}
+
+
+
+.navbar
+{
+    margin-top: 1%;
+    padding-bottom: 2.0rem;
+}
+.navbar-brand
+{
+    font-family: 'Ubuntu';  font-size: 2.5rem;  font-weight: bold;
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{ font-family: 'Montserrat-light';
+    font-size: 1.2rem;
+}
+
+/* Button */
+.sign-in
+{
+    margin: 5% 3% 5% 0;
+    border: none;
+  background: none;
+  color:white;
+}
+.sign-up{
+  margin: 5% 3% 5% 0;
+  background: none;
+}
